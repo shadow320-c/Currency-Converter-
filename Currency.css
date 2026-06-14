@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#fae9c4 ;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+}
+
+.container {
+  background: #f2f8c9e1;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.heading {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.inp {
+  width: 300px;
+  height: 50px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+
+.from, .to {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+}
+
+.flag {
+  width: 40px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 4px; 
+  border: 1px solid #ddd;
+}
+
+select {
+  width: 70px;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 14px;
+}
+  
+.msg {
+  width: 300px;
+  min-height: 50px;
+  border-radius: 15px;
+  background-color: #fadef4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.but {
+  display: block;
+  width: 300px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.mad{
+  position:absolute;
+  display: block;
+  width: 300px;
+  height: 15px;
+  top: 92vh;
+  left: 40vw;
+  color:#6c5e69;
+  font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, Georgia, serif;
+}
